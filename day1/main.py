@@ -7,6 +7,11 @@ def health():
     return {"status": "ok"}
 
 @app.get("/predict")
-def predict(x:float):
-    return {"y": x**2}
+def predict(x:float, y: float):
+    return {"sum": x+y, 
+            "difference": x-y,
+            "product": x*y,
+            "division": x/y,
+            "square": x**2,
+            "cube": x**3}
 

@@ -1,0 +1,5 @@
+outs:
+- md5: bf3bd4938bcc67761feb61ebe9fefa85
+  size: 1330
+  hash: md5
+  path: patients.json

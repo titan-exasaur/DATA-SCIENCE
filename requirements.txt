@@ -8,3 +8,7 @@ streamlit
 scikit-learn
 pydantic
 mlflow
+keras
+tensorflow
+hyperopt
+dvc
